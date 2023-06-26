@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    margin-top: 3rem;
+    
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    margin-top: 8rem;
+}
+
+.firstImg, .bio {
+    display: flex;
+    justify-content: center;
+}
+.vertical {
+    max-height: 80%;
+}
+.horizontal {
+    max-width: 80%;
+}
+iframe{
+    margin: 8rem 0;
+}
+i{
+    font-size: 3rem;
+    color: white;
+    margin: 1rem;
+
+}
