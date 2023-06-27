@@ -7,12 +7,12 @@ import ecuador2 from "/src/assets/imagenes/StronaWeb/Ecuador2:1981.jpg";
 import ecuador3 from "/src/assets/imagenes/StronaWeb/Ecuador3:1981.jpg";
 import hel from "/src/assets/imagenes/StronaWeb/Hel-Polska:2015.jpg";
 import maracaibo from "/src/assets/imagenes/StronaWeb/LagoMaracaibo-Venezuela:1981.jpg";
-import guaira1 from "/src/assets/imagenes/StronaWeb/LaGuaira1-Venezuela:1982.jpg"
-import guaira2 from "/src/assets/imagenes/StronaWeb/LaGuaira2-Venezuela:1982.jpg"
-import guaira3 from "/src/assets/imagenes/StronaWeb/LaGuaira3-Venezuela:1982.jpg"
-import guaira4 from "/src/assets/imagenes/StronaWeb/LaGuaira4-Venezuela:1982.jpg"
-import guaira5 from "/src/assets/imagenes/StronaWeb/LaGuaira5-Venezuela:1982.jpg"
-import guaira6 from "/src/assets/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg"
+import guaira1 from "/src/assets/imagenes/StronaWeb/LaGuaira1-Venezuela:1982.jpg";
+import guaira2 from "/src/assets/imagenes/StronaWeb/LaGuaira2-Venezuela:1982.jpg";
+import guaira3 from "/src/assets/imagenes/StronaWeb/LaGuaira3-Venezuela:1982.jpg";
+import guaira4 from "/src/assets/imagenes/StronaWeb/LaGuaira4-Venezuela:1982.jpg";
+import guaira5 from "/src/assets/imagenes/StronaWeb/LaGuaira5-Venezuela:1982.jpg";
+import guaira6 from "/src/assets/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg";
 
 
 function App() {
@@ -108,34 +108,34 @@ function App() {
   return (
    
     <main>
-        <div class="firstImg">
+        <div className="firstImg">
           <img src={imageProfil} alt="light photography"/>
         </div>
-        <div class="text">
+        <div className="text">
           <h1>Cezary Jaworski</h1>
         </div>
-        <div class="bio">
+        <div className="bio">
           <img src="https://yt3.ggpht.com/ytc/AKedOLTCQy2XExYclDBJatoHrjBSMPcA0fYWdfW7QVaoGw=s900-c-k-c0x00ffffff-no-rj" alt=""/>
         </div>
-        <div class="iframe-container">
-          <iframe width="720" height="480" src="https://www.youtube.com/embed/T77gtlw1KuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className="iframe-container">
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/T77gtlw1KuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-        <div class="iframe-container">
-          <iframe width="720" height="480" src="https://www.youtube.com/embed/XnG2MkSCByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className="iframe-container">
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/XnG2MkSCByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-        <div class="iframe-container">
-          <iframe width="720" height="480" src="https://www.youtube.com/embed/t3lcaSp1xYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className="iframe-container">
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/t3lcaSp1xYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <section id="gallery-container">
           {images.map((el, index) =>{
-            return <div class="img-container"><img src={images[index].src} /><p>{el.description} {el.date}</p> </div>
+            return <div key={index} className="img-container"><img src={images[index].src} /><p>{el.description} {el.date}</p> </div>
           }
             )}
           
         </section>
-        <div class = "iconContainner">
-          <i class="fa-brands fa-imdb"></i>
-          <i class="fa-brands fa-twitter"></i>
+        <div className= "iconContainner">
+          <i className="fa-brands fa-imdb"></i>
+          <i className="fa-brands fa-twitter"></i>
         </div>
     </main>
       
