@@ -1,5 +1,19 @@
 import hombresdelaluz from "/src/assets/imagenes/HombresDeLaLuz.jpg";
 import BaltykPolska from "/src/assets/imagenes/StronaWeb/Baltyk-Polska-1975.jpg";
+import CaracasVenezuela from "/src/assets/imagenes/StronaWeb/Caracas-Venezuela:1983.jpg";
+import ecuador from "/src/assets/imagenes/StronaWeb/Ecuador-Amazonas:1981.jpg";
+import ecuador1 from "/src/assets/imagenes/StronaWeb/Ecuador1:1981.jpg";
+import ecuador2 from "/src/assets/imagenes/StronaWeb/Ecuador2:1981.jpg";
+import ecuador3 from "/src/assets/imagenes/StronaWeb/Ecuador3:1981.jpg";
+import hel from "/src/assets/imagenes/StronaWeb/Hel-Polska:2015.jpg";
+import maracaibo from "/src/assets/imagenes/StronaWeb/LagoMaracaibo-Venezuela:1981.jpg";
+import guaira1 from "/src/assets/imagenes/StronaWeb/LaGuaira1-Venezuela:1982.jpg"
+import guaira2 from "/src/assets/imagenes/StronaWeb/LaGuaira2-Venezuela:1982.jpg"
+import guaira3 from "/src/assets/imagenes/StronaWeb/LaGuaira3-Venezuela:1982.jpg"
+import guaira4 from "/src/assets/imagenes/StronaWeb/LaGuaira4-Venezuela:1982.jpg"
+import guaira5 from "/src/assets/imagenes/StronaWeb/LaGuaira5-Venezuela:1982.jpg"
+import guaira6 from "/src/assets/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg"
+
 
 function App() {
   const images = [
@@ -13,79 +27,79 @@ function App() {
       id: 2,
       description: "Caracas, Venezuela",
       date: "1983",
-      src: "/src/assets/imagenes/StronaWeb/Caracas-Venezuela:1983.jpg"
+      src: CaracasVenezuela
     },
     {
       id: 3,
       description: "Amazonas, Ecuador",
       date: "1981",
-      src: "/src/assets/imagenes/StronaWeb/Ecuador-Amazonas:1981.jpg"
+      src: ecuador
     },
     {
       id: 4,
       description: "Ecuador",
       date: "1981",
-      src: "/src/assets/imagenes/StronaWeb/Ecuador1:1981.jpg"
+      src: ecuador1
     },
     {
       id: 5,
       description: "Ecuador",
       date: "1981",
-      src: "/src/assets/imagenes/StronaWeb/Ecuador2:1981.jpg"
+      src: ecuador2
     },
     {
       id: 6,
       description: "Ecuador",
       date: "1981",
-      src: "/src/assets/imagenes/StronaWeb/Ecuador3:1981.jpg"
+      src: ecuador3
     },
     {
       id: 7,
       description: "Hel, Polska",
       date: "2015",
-      src: "/src/assets/imagenes/StronaWeb/Hel-Polska:2015.jpg"
+      src: hel
     },
     {
       id: 8,
       description: "Lago de Maracaibo, Venezuela",
       date: "1981",
-      src: "/src/assets/imagenes/StronaWeb/LagoMaracaibo-Venezuela:1981.jpg"
+      src: maracaibo
     },
     {
       id: 9,
       description: "La Guaira, Venezuela",
       date: "1983",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira1-Venezuela:1982.jpg"
+      src: guaira1
     },
     {
       id: 10,
       description: "La Guaira, Venezuela",
       date: "1982",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira2-Venezuela:1982.jpg"
+      src: guaira2
     },
     {
       id: 11,
       description: "La Guaira, Venezuela",
       date: "1982",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira3-Venezuela:1982.jpg"
+      src: guaira3
     },
     {
       id: 12,
       description: "La Guaira, Venezuela",
       date: "1982",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira4-Venezuela:1982.jpg"
+      src: guaira4
     },
     {
       id: 13,
       description: "La Guaira, Venezuela",
       date: "1982",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira5-Venezuela:1982.jpg"
+      src: guaira5
     },
     {
       id: 14,
       description: "La Guaira, Venezuela",
       date: "1982",
-      src: "/src/assets/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg"
+      src: guaira6
     }
   ]
   const imageProfil = hombresdelaluz;
