@@ -5,26 +5,28 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1{
+h1 {
     color: white;
     margin-top: 3rem;
-    
 }
-
-html, body{
+p {
+    color: white;
+}
+html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
     background-color: black;
 
 }
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-div{
+
+div {
     margin-top: 8rem;
 }
 
@@ -32,18 +34,24 @@ div{
     display: flex;
     justify-content: center;
 }
-.vertical {
-    max-height: 80%;
+
+.img-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.horizontal {
+
+img {
     max-width: 80%;
 }
-iframe{
+
+iframe {
     margin: 8rem 0;
 }
-i{
+
+i {
     font-size: 3rem;
     color: white;
     margin: 1rem;
-
 }
