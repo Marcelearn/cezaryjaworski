@@ -1,5 +1,5 @@
 import hombresdelaluz from "/src/assets/imagenes/HombresDeLaLuz.jpg";
-
+import BaltykPolska from "/src/assets/imagenes/StronaWeb/Baltyk-Polska-1975.jpg";
 
 function App() {
   const images = [
@@ -7,7 +7,7 @@ function App() {
       id: 1,
       description: "Baltyk, Polska",
       date: "1975",
-      src: "/src/assets/imagenes/StronaWeb/Baltyk-Polska-1975.jpg"
+      src: BaltykPolska
     },
     {
       id: 2,
@@ -88,15 +88,14 @@ function App() {
       src: "/src/assets/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg"
     }
   ]
-  const imageProfil = [
-    hombresdelaluz
-  ]
+  const imageProfil = hombresdelaluz;
+
 
   return (
    
     <main>
         <div class="firstImg">
-          <img src={imageProfil[0]} alt="light photography"/>
+          <img src={imageProfil} alt="light photography"/>
         </div>
         <div class="text">
           <h1>Cezary Jaworski</h1>
