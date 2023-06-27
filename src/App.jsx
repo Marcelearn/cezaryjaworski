@@ -128,7 +128,7 @@ function App() {
         </div>
         <section id="gallery-container">
           {images.map((el, index) =>{
-            return <div key={index} className="img-container"><img src={images[index].src} /><p>{el.description} {el.date}</p> </div>
+            return <div key={index} className="img-container"><img key={index} src={el.src} /><p key={index}>{el.description} {el.date}</p> </div>
           }
             )}
           
