@@ -108,35 +108,42 @@ function App() {
   return (
    
     <main>
-        <div className="firstImg">
-          <img src={imageProfil} alt="light photography"/>
-        </div>
-        <div className="text">
-          <h1>Cezary Jaworski</h1>
-        </div>
-        <div className="bio">
-          <img src="https://yt3.ggpht.com/ytc/AKedOLTCQy2XExYclDBJatoHrjBSMPcA0fYWdfW7QVaoGw=s900-c-k-c0x00ffffff-no-rj" alt=""/>
-        </div>
+      <div className="bio">
+        <h1>Cezary Jaworski</h1>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLTCQy2XExYclDBJatoHrjBSMPcA0fYWdfW7QVaoGw=s900-c-k-c0x00ffffff-no-rj" alt=""/>
+      </div>
+      <div className="firstImg">
+        <img src={imageProfil} alt="light photography"/>
+      </div>
+        
+      
         <div className="iframe-container">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/T77gtlw1KuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
+      
+      
         <div className="iframe-container">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/XnG2MkSCByg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
+      
+
+      
         <div className="iframe-container">
           <iframe width="720" height="480" src="https://www.youtube.com/embed/t3lcaSp1xYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-        <section id="gallery-container">
-          {images.map((el, index) =>{
-            return <div key={index} className="img-container"><img src={el.src} /><p>{el.description} {el.date}</p> </div>
+    
+        
+      <section id="gallery-container">
+        {images.map((el, index) =>{
+          return <div key={index} className="img-container"><img src={el.src} /><p className="description">{el.description} {el.date}</p> </div>
           }
             )}
           
-        </section>
-        <div className= "iconContainner">
-          <i className="fa-brands fa-imdb"></i>
-          <i className="fa-brands fa-twitter"></i>
-        </div>
+      </section>
+      <div className= "iconContainner">
+        <i className="fa-brands fa-imdb"></i>
+        <i className="fa-brands fa-twitter"></i>
+      </div>
     </main>
       
   

@@ -7,7 +7,7 @@
 }
 h1 {
     color: white;
-    margin-top: 3rem;
+    margin-bottom: 8rem;
 }
 p {
     color: white;
@@ -15,7 +15,7 @@ p {
 html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
-    background-color: black;
+    background-color: #404040;
 
 }
 main {
@@ -26,13 +26,12 @@ main {
     
 }
 
-div {
-    margin-top: 8rem;
-}
-
 .firstImg, .bio {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .img-container {
@@ -46,6 +45,14 @@ div {
 img {
     max-width: 80%;
 }
+
+.description {
+    text-align: start;
+    margin-top: .7rem;
+}
+.video-section {
+    height: 100vh;
+}
 .iframe-container {
     position: relative;
     overflow: hidden;
@@ -54,6 +61,7 @@ img {
     margin-top: 7rem;
     
 }
+
 iframe {
     position: absolute;
     top: 0;
