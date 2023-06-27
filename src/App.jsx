@@ -1,3 +1,4 @@
+import hombresdelaluz from "../imagenes/HombresDeLaLuz.jpg"
 const images = [
   {
     id: 1,
@@ -92,7 +93,7 @@ function App() {
    
     <main>
         <div class="firstImg">
-          <img src="./imagenes/HombresDeLaLuz.JPG" alt="light photography"/>
+          <img src={hombresdelaluz} alt="light photography"/>
         </div>
         <div class="text">
           <h1>Cezary Jaworski</h1>
