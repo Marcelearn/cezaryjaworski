@@ -10,9 +10,79 @@ const images = [
     description: "Caracas, Venezuela",
     date: "1983",
     src: "/imagenes/StronaWeb/Caracas-Venezuela:1983.jpg"
+  },
+  {
+    id: 3,
+    description: "Amazonas, Ecuador",
+    date: "1981",
+    src: "/imagenes/StronaWeb/Ecuador-Amazonas:1981.jpg"
+  },
+  {
+    id: 4,
+    description: "Ecuador",
+    date: "1981",
+    src: "/imagenes/StronaWeb/Ecuador1:1981.jpg"
+  },
+  {
+    id: 5,
+    description: "Ecuador",
+    date: "1981",
+    src: "/imagenes/StronaWeb/Ecuador2:1981.jpg"
+  },
+  {
+    id: 6,
+    description: "Ecuador",
+    date: "1981",
+    src: "/imagenes/StronaWeb/Ecuador3:1981.jpg"
+  },
+  {
+    id: 7,
+    description: "Hel, Polska",
+    date: "2015",
+    src: "/imagenes/StronaWeb/Hel-Polska:2015.jpg"
+  },
+  {
+    id: 8,
+    description: "Lago de Maracaibo, Venezuela",
+    date: "1981",
+    src: "/imagenes/StronaWeb/LagoMaracaibo-Venezuela:1981.jpg"
+  },
+  {
+    id: 9,
+    description: "La Guaira, Venezuela",
+    date: "1983",
+    src: "/imagenes/StronaWeb/LaGuaira1-Venezuela:1982.jpg"
+  },
+  {
+    id: 10,
+    description: "La Guaira, Venezuela",
+    date: "1982",
+    src: "/imagenes/StronaWeb/LaGuaira2-Venezuela:1982.jpg"
+  },
+  {
+    id: 11,
+    description: "La Guaira, Venezuela",
+    date: "1982",
+    src: "/imagenes/StronaWeb/LaGuaira3-Venezuela:1982.jpg"
+  },
+  {
+    id: 12,
+    description: "La Guaira, Venezuela",
+    date: "1982",
+    src: "/imagenes/StronaWeb/LaGuaira4-Venezuela:1982.jpg"
+  },
+  {
+    id: 13,
+    description: "La Guaira, Venezuela",
+    date: "1982",
+    src: "/imagenes/StronaWeb/LaGuaira5-Venezuela:1982.jpg"
+  },
+  {
+    id: 14,
+    description: "La Guaira, Venezuela",
+    date: "1982",
+    src: "/imagenes/StronaWeb/LaGuaira6-Venezuela:1982.jpg"
   }
-
-  
 ]
 
 function App() {
